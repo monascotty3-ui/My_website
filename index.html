@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>Error handles</title>
+		<style>
+		body {
+				width: 300px;
+				background: black;
+		}
+		.sign {
+				margin-left: 5px;
+				background: white;
+				color: blue;
+				height: 450px;
+				width: 300px;
+				padding: 20px;
+				box-shadow: 2px 6px 12px rgba(0,0,0,0.4);
+				border-radius: 20px;
+		}
+		.btn {
+				margin-left: 100px;
+				color: white;
+				background: blue;
+				border-radius: 20px;
+		}
+		.sign1 {
+ 	//			background: blue;
+	//			background-size: 400px;
+		//		background-align: center;
+			//	background-repeat: none;
+				color: white;
+				width: 160px;
+				padding: 20px;
+				margin-left: 20px;
+				border-radius: 20px;
+		}
+		 .input {
+	 			color: black;
+		 		outline: none;
+		 		font-size: 20px;
+		 		border-height: 50px;
+		 		background: transparent;
+		 		border-top-color: transparent;
+		 		border-left-color: transparent;
+		 		border-right-color: transparent;
+		}
+		h1 {
+				margin-left: 50px;
+		}
+		.new {
+	//			float: right;
+				margin-left: 230px;
+				margin-top: -100px;
+		}
+		</style>
+</head>
+<body>
+		<div class="sign">
+				<h1>Sign up</h1>
+				<form class="sign1" action="/actions-page.php">
+						<label for="fname">First name:</label>
+						<input class="input" type="text" placeholder="Enter a first name" name="fname" required><br><br>
+						<label for="mname">Middle name:</label>
+						<input class="input" type="text" name="mname"placeholder="Enter a middle name"  required><br><br>
+						<label for="lname">Last name:</label>
+						<input class="input" type="text" name="lname" placeholder="Enter a last name" required><br><br>
+						<label for="password">Password:</label>
+						<input class="input" type="password" placeholder="Enter a password" name="passowrd" required><input class="new"type="checkbox"><br><br>
+				</form>
+				<br>		<button class="btn" type="submit" value="submit">Submit</button>
+		</div>
+</body>
+</html>
